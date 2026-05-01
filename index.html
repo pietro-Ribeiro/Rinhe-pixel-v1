@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Rinhe Pixel</title>
+</head>
+<body>
+  <div class="SF1"><h1>Rinhe pixel</h1>
+  <p>jogo de cartas com galinhas aleatorias! (nao por informações pessoais)</p></div>
+  <p>suas moedas estão em : <span class="moeda" id="moedas"></span></p><br><br>
+<div class="arena"> <div class="galo">
+    <img src="galoCarijo.jpg" alt="galoCarijo.jpg">
+    <p>Nome : galo Carijo<br>vida : <span class="span">100</span></p>
+  </div><div class="oponente">
+    <img src="galinha.jpg" class="galoopo">
+    <p>nome : bebado<br>
+    vida : <span class="span" id="vida2"></span></p>
+  </div></div><br><br>
+  <div class="butao"><button onclick="fraco()" style="background-color: lightblue">briga de rua</button> 
+   <button onclick="forte()" style="background-color: lightcoral">rinha de elite</button></div><hr>
+  <dialog id="perdeu"><h2>voce perdeu!</h2>
+  <p>tente comprar um novo galo<br> ou certificar que esta lutando na rua</p><button onclick="fechar1()">fechar pop up</button></dialog>
+  <dialog id="empate"><h2>voce empatou!</h2>
+  <p>empate! ainda nao tente ir<br> em uma rinha de elite</p><button onclick="fechar2()">fechar pop up</button>
+  </dialog>
+  <dialog id="vitoria">
+    <h2>parabens!</h2>
+    <p>voce venceu o galo bebado!<br>ja pode lutar na elite</p>
+    <button onclick="fechar3()">fechar pop up
+    </button>
+  </dialog><h3>configurações</h3>
+  <details><summary>modos escuro e claro</summary><br>
+  <button class="modo" onclick="escuro()">modo escuro</button><br><br>
+  <button class="modo" onclick="claro()">modo claro</button>
+  </details>
+  <script src="script.js">script.js</script>
+</body>
+</html>
