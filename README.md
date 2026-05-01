@@ -3,7 +3,7 @@ Um jogo de cartas de galos feito por Pietro Ribeiro, vença de galos bebados na 
 
 ### Tecnologias usadas :
 * HTML5 (sem tags semânticas mas com dialog)
-* Css (com flexbox)
+* Css3 (com flexbox)
 * javaScript (com localStorage, POO e Math)
 
 ## coisas do jogo :
