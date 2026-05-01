@@ -1,0 +1,60 @@
+.arena {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.oponente {
+  background-color: #d4b896;
+  width: 151px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #000;
+}
+.galoopo {
+  height: 150px;
+  width: 150px;
+}
+.SF1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.moeda {
+  color: #d4af37;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border: 0.5px solid black;
+}
+.galo {
+  background-color: #d4b896;
+  width: 151px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #2c1810;
+}
+.span {
+  color: red;
+}
+.butao {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+button {
+  border-radius: 10px;
+}
+dialog {
+  border-radius: 10px;
+  background-color: black;
+  color: whitesmoke;
+}
+.modo {
+  font-size: 20px;
+}
