@@ -15,8 +15,9 @@ Um jogo de cartas de galos feito por Pietro Ribeiro, vença de galos bebados na 
 
 ### Cronograma de versões:
 * v1 : luta básica, moedas funcionando
-* v2 : loja básica (+1 galo), css refinado
-* v3 : ranking local, loja (+1 galo)
+* v2 : apostas (fake), conquistas
+* v3 : loja básica (+1 galo), css refinado
+* v4 : ranking local, loja (+1 galo)
 
 
 
