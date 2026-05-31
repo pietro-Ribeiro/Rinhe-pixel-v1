@@ -18,5 +18,6 @@ Um jogo de cartas de galos feito por Pietro Ribeiro, vença de galos bebados na 
 * v2 : apostas (fake), conquistas
 * v3 : loja básica (+1 galo), css refinado
 * v4 : ranking local, loja (+1 galo)
-NÃO NECESSARIAMENTE FAREI O CRONOGRAMA
+
+V2 em desenvolvimento com extras
 
